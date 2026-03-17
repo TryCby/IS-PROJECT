@@ -18,7 +18,7 @@ st.markdown("""
         -webkit-background-clip: text; -webkit-text-fill-color: transparent;
         font-size: 3.8rem; font-weight: 900; margin-bottom: 0.2rem;
     }
-    .sub-title { text-align: center; color: #A0AEC0; font-size: 1.4rem; margin-bottom: 1rem; letter-spacing: 1px;}
+    .sub-title { text-align: center; color: #A0AEC0; font-size: 1.4rem; margin-bottom: 2.5rem; letter-spacing: 1px;}
     .project-card {
         background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); padding: 35px; border-radius: 15px; 
         color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.2); height: 100%; transition: transform 0.3s;
@@ -81,10 +81,9 @@ st.markdown("""
 st.markdown('<h1 class="main-title">🤖 Intelligence System Project</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-title">6704062611069 Teerayoth Chanbanyong</p>', unsafe_allow_html=True)
 
-
 st.markdown("""
 <div class="github-btn-container">
-    <a href="https://github.com/TryCby" target="_blank" class="github-btn">
+    <a href="https://github.com/TryCby/IS-PROJECT" target="_blank" class="github-btn">
         <span class="github-icon">💻</span> View Source Code on GitHub
     </a>
 </div>
@@ -210,6 +209,7 @@ with t4:
         <span class="tech-badge">Streamlit Cloud</span>
     </div>
     """, unsafe_allow_html=True)
+
 
 st.markdown("<h2 class='section-header'>📊 Model Performance Statistics</h2>", unsafe_allow_html=True)
 
