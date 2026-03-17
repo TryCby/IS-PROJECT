@@ -3,7 +3,7 @@ import joblib
 import os
 
 st.set_page_config(
-    page_title="6704062611069 IS",
+    page_title="IS-6704062611069",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
